@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import requests
 import csv
 import os
@@ -143,5 +142,3 @@ collect_round()
 with open(CSV_PATH) as f:
     total = sum(1 for _ in f) - 1  # minus header
 print(f"Total samples so far: {total}")
-=======
->>>>>>> parent of 09d59e9 (Added code)
